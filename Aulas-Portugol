@@ -1,0 +1,26 @@
+#(Primeiro programa em Portugol)
+
+
+programa
+{
+	inteiro numA, numB, resultado
+	
+	funcao inicio()
+	{
+	escreva("Digite um número: ")
+	leia(numA)
+	escreva("Digite outro número: ")
+	leia(numB)
+	resultado = numA + numB
+	se (resultado>=10){
+		escreva("O resultado é: ", resultado)
+		
+		
+		}
+	senao {
+		escreva("Tente novamente")
+		}
+	
+		
+	}
+}
